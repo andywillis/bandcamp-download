@@ -9,10 +9,10 @@
   }
 
   function compileDownloads(media) {
-    return media.map((url) => {
+    return media.map(({ url, filename }) => {
       return {
         url,
-        filename: url.split('/').pop(),
+        filename,
         conflictAction: 'uniquify'
       };
     });

@@ -11,6 +11,7 @@
     "node": true
   },
   "globals": {
+    "TralbumData": true,
     "browser": true
   },
   "rules": {

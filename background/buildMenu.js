@@ -19,22 +19,8 @@
   }
 
   browser.menus.create({
-    id: 'pdf',
-    title: 'PDFs',
-    contexts: ['all'],
-    onclick: downloadMedia
-  }, onCreated);
-
-  browser.menus.create({
-    id: 'jpg',
-    title: 'JPGs',
-    contexts: ['all'],
-    onclick: downloadMedia
-  }, onCreated);
-
-  browser.menus.create({
-    id: 'mp3',
-    title: 'MP3s',
+    id: 'bandcamp',
+    title: 'Bandcamp',
     contexts: ['all'],
     onclick: downloadMedia
   }, onCreated);
