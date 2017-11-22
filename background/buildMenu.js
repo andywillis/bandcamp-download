@@ -22,6 +22,7 @@
     id: 'bandcamp',
     title: 'Bandcamp',
     contexts: ['all'],
+    documentUrlPatterns: ['*://*.bandcamp.com/*'],
     onclick: downloadMedia
   }, onCreated);
 

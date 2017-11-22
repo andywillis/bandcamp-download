@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "Bandcamp download",
-  "version": "1.2",
+  "version": "1.6",
   "description": "Download bandcamp mp3s using the context menu",
   "icons": {
     "128": "icons/icon-128.png",
@@ -22,7 +22,6 @@
   ],
   "permissions": [
     "downloads",
-    "menus",
-    "<all_urls>"
+    "menus"
   ]
 }
