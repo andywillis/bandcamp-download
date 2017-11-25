@@ -1,3 +1,3 @@
-# uws-bandcamp
+# bandcamp download
 
-Download Bandcamp tunes.
+Web extension - download Bandcamp media.
