@@ -1,7 +1,7 @@
 (function () {
 
   function getMedia() {
-    const artistre = /artist: "([A-Za-z0-9-!&() ]+)"/;
+    const artistre = /artist: "([A-Za-zå0-9-!&() ]+)"/;
     const tracksre = /trackinfo: (\[.*\])/i;
     const body = document.querySelector('body');
     const artistmatch = body.textContent.match(artistre)[1];
