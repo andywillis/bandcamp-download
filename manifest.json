@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "Bandcamp download",
-  "version": "1.6",
+  "version": "1.6.2",
   "description": "Download bandcamp mp3s using the context menu",
   "icons": {
     "128": "icons/icon-128.png",
@@ -14,12 +14,10 @@
       "background/downloadMedia.js"
     ]
   },
-  "content_scripts": [
-    {
-      "matches": ["*://*.bandcamp.com/*"],
-      "js": ["content/getMedia.js"]
-    }
-  ],
+  "content_scripts": [{
+    "matches": ["*://*.bandcamp.com/*"],
+    "js": ["content/getMedia.js"]
+  }],
   "permissions": [
     "downloads",
     "menus"
